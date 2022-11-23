@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Numbers", "..\Numbers\Numbe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variables", "..\Variables\Variables.csproj", "{962E9C7E-1EC0-4D50-87EE-C3EE004A8BDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "..\Arrays\Arrays.csproj", "{4550E2FD-3CC9-4559-BAA1-B821142DF55B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "..\Arrays\Arrays.csproj", "{4550E2FD-3CC9-4559-BAA1-B821142DF55B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullHandling", "..\NullHandling\NullHandling.csproj", "{78CDC283-7B1D-4105-AA00-1E2797FDF1B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullHandling", "..\NullHandling\NullHandling.csproj", "{78CDC283-7B1D-4105-AA00-1E2797FDF1B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formatting", "..\Formatting\Formatting.csproj", "{C09D9D92-54C8-4BA4-9004-86AE14300BE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{78CDC283-7B1D-4105-AA00-1E2797FDF1B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78CDC283-7B1D-4105-AA00-1E2797FDF1B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78CDC283-7B1D-4105-AA00-1E2797FDF1B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C09D9D92-54C8-4BA4-9004-86AE14300BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C09D9D92-54C8-4BA4-9004-86AE14300BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C09D9D92-54C8-4BA4-9004-86AE14300BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C09D9D92-54C8-4BA4-9004-86AE14300BE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

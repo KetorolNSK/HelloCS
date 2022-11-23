@@ -34,6 +34,12 @@ namespace NullHandling
             thisCuoldBeNull = 75;
             Console.WriteLine(thisCuoldBeNull);
             Console.WriteLine(thisCuoldBeNull.GetValueOrDefault());
+
+            string authorName = null;
+            //int x = authorName.Length;
+            int? x = authorName?.Length;
+            var res = authorName?.Length ?? 3;
+            Console.WriteLine(res);
         }
     }
 }
