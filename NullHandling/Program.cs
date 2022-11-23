@@ -13,7 +13,7 @@ namespace NullHandling
             Console.WriteLine(thisCuoldBeNull);
             Console.WriteLine(thisCuoldBeNull.GetValueOrDefault());
 
-            thisCuoldBeNull = 7;
+            thisCuoldBeNull = 75;
             Console.WriteLine(thisCuoldBeNull);
             Console.WriteLine(thisCuoldBeNull.GetValueOrDefault());
         }
