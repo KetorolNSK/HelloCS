@@ -51,6 +51,31 @@ namespace Arrays
             Console.WriteLine(now.ToString());
             object me = new object();
             Console.WriteLine(me.ToString());
+
+
+
+            int age = int.Parse("43");
+            DateTime birthday = DateTime.Parse("9 November 1979");
+
+            Console.WriteLine($"I was born {age} years ago.");
+            Console.WriteLine($"My birthday is {birthday}.");
+            Console.WriteLine($"My birthday is {birthday:D}");
+
+            //int count = int.Parse("abc");
+
+            Console.WriteLine("How many eggs are there?");
+            int count;
+            string input = Console.ReadLine();
+
+            if (int.TryParse(input, out count))
+            {
+                Console.WriteLine($"There are {count} eggs.");
+            }
+            else
+            {
+                Console.WriteLine("I could not parse the input");
+            }
         }
+
     }
 }
